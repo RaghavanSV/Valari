@@ -1,0 +1,8 @@
+# .gitignore
+
+.env
+*.db
+exploits/
+Exploits/
+__pycache__/
+*.pyc
