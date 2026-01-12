@@ -7,6 +7,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI  # ADD THIS
 import sqlite3      
 import json
 from langchain_anthropic import ChatAnthropic
+import time
 # ==================== LLM CONFIGURATION ====================
 
 #pop the openai api
@@ -355,3 +356,4 @@ if __name__ == "__main__":
             cve_id=cve,  # Log4Shell
             num_variants=3
         )
+        time.sleep(60)
